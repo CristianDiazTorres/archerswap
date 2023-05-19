@@ -1,0 +1,28 @@
+[
+  {
+    "pid": 1,
+    "lpSymbol": "BOW-CORE LP",
+    "lpAddresses": {
+      "1115": "",
+      "1116": "0xcd5645bcacc0f47cbf6e5a45d97aab709e90ec00"
+    },
+    "token": {
+      "symbol": "BOW",
+      "address": {
+        "1116": "0x665F8B21878bDECa8bD94507120730a40dCd4F61",
+        "1115": ""
+      },
+      "decimals": 18,
+      "projectLink": "https://archerswap.finance/"
+    },
+    "quoteToken": {
+      "symbol": "WCORE",
+      "address": {
+        "1116": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
+        "1115": ""
+      },
+      "decimals": 18,
+      "projectLink": "https://coredao.org/"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Avalanche",
+    "value": "Avalanche",
+    "chainId": "1116",
+    "image": "/images/assets/chain/avalanche.png"
+  },
+  {
+    "label": "Ethereum",
+    "value": "Ethereum",
+    "chainId": "1",
+    "image": "/images/assets/chain/ethereum.png"
+  },
+  {
+    "label": "Fantom",
+    "value": "Fantom",
+    "chainId": "250",
+    "image": "/images/assets/chain/fantom.png"
+  },
+  {
+    "label": "Polygon",
+    "value": "Polygon",
+    "chainId": "137",
+    "image": "/images/assets/chain/polygon.png"
+  },
+  {
+    "label": "Binance",
+    "value": "Binance",
+    "chainId": "56",
+    "image": "/images/assets/chain/binance.png"
+  },
+  {
+    "label": "Core",
+    "value": "Core",
+    "chainId": "1116",
+    "image": "/images/assets/chain/core.png"
+  }
+]

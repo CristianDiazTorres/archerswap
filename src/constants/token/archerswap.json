@@ -1,0 +1,103 @@
+{
+  "name": "Archerswap Default List",
+  "timestamp": "2021-12-18T08:10:58Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "/images/archerswap.png",
+  "keywords": ["archerswap", "default"],
+  "tokens": [
+    {
+      "name": "ArcherSwap Token",
+      "address": "0x1a639e150d2210a4be4a5f0857a9151b241e7ae4",
+      "symbol": "BOW",
+      "decimals": 18,
+      "chainId": 1116,
+      "logoURI": "/images/coins/bow.png"
+
+    },
+    {
+      "name": "Hunter",
+      "symbol": "HUNT",
+      "address": "0x962D45C91e2e4f29DdC96C626976ECE600908Ba6",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/hunt.png"
+    },
+    {
+      "name": "WCORE Token",
+      "symbol": "WCORE",
+      "address": "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/core.png"
+    },
+    {
+      "name": "Wrapped ETH",
+      "symbol": "WETH",
+      "address": "0xeAB3aC417c4d6dF6b143346a46fEe1B847B50296",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/weth.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0xa4151B2B3e269645181dCcF2D426cE75fcbDeca9",
+      "chainId": 1116,
+      "decimals": 6,
+      "logoURI": "/images/coins/usdc.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x900101d06A7426441Ae63e9AB3B9b0F63Be145F1",
+      "chainId": 1116,
+      "decimals": 6,
+      "logoURI": "/images/coins/usdt.png"
+    },
+    {
+      "name": "CORE ID",
+      "symbol": "CID",
+      "address": "0x000000000E1D682Cc39ABe9B32285fdEa1255374",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/cid.png"
+    },
+    {
+      "name": "Hobo Universe",
+      "symbol": "HOBO",
+      "address": "0x25100C0083e8E53b1cb264E978522bd477011A0d",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/hobo.png"
+    },
+    {
+      "name": "Ignore Fud",
+      "symbol": "4TOKEN",
+      "address": "0x98564e70c7fcc6d947ffe6d9efed5ba68b306f2e",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/4token.png"
+    },
+    {
+      "name": "Miidas NFT",
+      "symbol": "Miidas",
+      "address": "0xcfd38184c30832917A2871695F91e5e61bBD41fF",
+      "chainId": 1116,
+      "decimals": 6,
+      "logoURI": "/images/coins/miidas.png"
+    },
+    {
+      "name": "WOOF",
+      "symbol": "WOOF",
+      "address": "0x5C44d3D2312AbA4d5F2406A98Bf374Bc76455092",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "/images/coins/woof.png"
+    }
+  ]
+}

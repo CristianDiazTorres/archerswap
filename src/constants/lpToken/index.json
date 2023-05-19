@@ -1,0 +1,15 @@
+{
+  "archerswap": {
+    "usdc-core": {
+      "lpSymbol": "USDC-CORE",
+      "lpAddresses": "0x519DE4668EA6661D1870928a3033A62dc2ACc503",
+      "token0Path": [
+        "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
+      ],
+      "token1Path": [],
+      "asset1": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDC/logo.png",
+      "asset2": "/images/coins/core.png"
+    }
+  }
+}

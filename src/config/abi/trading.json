@@ -1,0 +1,173 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_cakeTokenAddress",
+                "type": "address"
+            }
+        ],
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "enum TradingComp.CompetitionStatus",
+                "name": "status",
+                "type": "uint8"
+            }
+        ],
+        "name": "NewCompetitionStatus",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "previousOwner",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "address",
+                "name": "userAddress",
+                "type": "address"
+            }
+        ],
+        "name": "UserRegister",
+        "type": "event"
+    },
+    {
+        "inputs": [],
+        "name": "cakeToken",
+        "outputs": [
+            {
+                "internalType": "contract IBEP20",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_amount",
+                "type": "uint256"
+            }
+        ],
+        "name": "claimRemainder",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "claimReward",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "currentStatus",
+        "outputs": [
+            {
+                "internalType": "enum TradingComp.CompetitionStatus",
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "register",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounceOwnership",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "enum TradingComp.CompetitionStatus",
+                "name": "_status",
+                "type": "uint8"
+            }
+        ],
+        "name": "updateCompetitionStatus",
+        "outputs": [],
+       
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "userTradingStats",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "hasRegistered",
+                "type": "bool"
+            },
+            {
+                "internalType": "bool",
+                "name": "hasClaimed",
+                "type": "bool"
+            }
+        ],
+
+        "type": "function"
+    }
+]
